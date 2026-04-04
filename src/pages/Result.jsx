@@ -175,7 +175,7 @@ export default function Result({ planText, answers, setScreen, setAnswers, setPl
                   <div style={{ fontWeight:700, fontSize:15, color:'#2d3748' }}>{s.nom}</div>
                   {s.categorie && <span style={{ fontSize:11, color:'#718096', textTransform:'uppercase', letterSpacing:1 }}>{s.categorie}</span>}
                 </div>
-                <div style={{ display:'flex', gap:6', flexShrink:0 }}>
+                <div style={{ display:'flex', gap:6, flexShrink:0 }}>
                   {s.priorite && <span style={{ background: s.priorite === 'Haute' ? PRIMARY : '#e2e8f0', color: s.priorite === 'Haute' ? 'white' : '#718096', borderRadius:8, padding:'3px 10px', fontSize:11, fontWeight:600 }}>{s.priorite}</span>}
                   {s.cout && <span style={{ background:'#f59e0b', color:'white', borderRadius:8, padding:'3px 10px', fontSize:11, fontWeight:600 }}>{s.cout}</span>}
                 </div>
